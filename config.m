@@ -12,8 +12,17 @@ Kpw = 0.1;    % Proportional gain for speed controller
 Kiw = 15;     % Integrator gain for speed controller
 Kpv = 0.1;    % Proportional gain for voltage controller
 Kiv = 0.5;    % Integrator gain for voltage controller
+%Variables para la simulacion
 
-
+valvula1 = [];
+vel_motor = [];
+bomba = [];
+bomba_negativa= [];
+remojo = [];
+lavado = [];
+enjuague = [];
+centrifugado = [];
+agua = [];
 addpath('docs/')
 
 % Assets 
